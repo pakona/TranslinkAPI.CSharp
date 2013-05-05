@@ -11,6 +11,6 @@ TranslinkAPI.CSharp
 
 Usage example:
 --------------------
-//Get informations about stop 51549
-GetStopResponse rsp = await Translink.GetStop(APIKey.Valid, 51549);
+//get informations about stop 51549                                   
+GetStopResponse rsp = await Translink.GetStop("Your_API_Key", 51549);                  
 Console.WriteLine(rsp.Stop.Name);
