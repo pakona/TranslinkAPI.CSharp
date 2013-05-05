@@ -8,6 +8,7 @@ TranslinkAPI.CSharp
 - Light and easy to use
 - Very well documented
 - Exposes every single API available through Translink's Restfull API V1
+- Unit tested (developped with a TDD approach)
 
 Usage example:
 --------------------
